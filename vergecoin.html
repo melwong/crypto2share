@@ -1,0 +1,25 @@
+<script src=js/bitcoinjs-lib.js></script>
+<script src=js/qrcode.js></script>
+<script>
+    function generate() {
+        const verge = bitcoin.networks.bitcoin;
+        verge.pubKeyHash = 0x1e; verge.wif = 0x9e; verge.scriptHash = 0x16;
+        const keyPair = bitcoin.ECPair.makeRandom();
+        const pubKey = keyPair.getAddress();
+        const privKey = keyPair.toWIF();
+        document.getElementById("public").textContent = pubKey;
+        document.getElementById("public_qr").textContent = "";
+        new QRCode(document.getElementById("public_qr"), { text: pubKey, width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
+
+        //Start: Set details of crypto
+        var explorerUrl = 'https://verge-blockchain.info/address'; //Ensure there's no "/" at the end
+        var a = document.getElementById('explorer-url');
+        a.href = explorerUrl + "/" + pubKey;
+
+        document.getElementById('pubKey').value = pubKey;
+        document.getElementById('privKey').value = privKey;
+        document.getElementById('cryptoExplorer').value = 'VergeExplorer';
+        document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+        //End
+    }
+</script>

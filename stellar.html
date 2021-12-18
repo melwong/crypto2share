@@ -1,0 +1,22 @@
+<script src=js/stellar-base.js></script>
+<script src=js/qrcode.js></script>
+<script>
+    function generate() {
+        var keypair = StellarBase.Keypair.random();
+        document.getElementById("public").textContent = keypair.publicKey();
+        document.getElementById("public_qr").textContent = "";
+        new QRCode(document.getElementById("public_qr"), { text: keypair.publicKey(), width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
+
+        //Start: Set details of crypto
+        var explorerUrl = 'https://steexp.com/account'; //Ensure there's no "/" at the end
+        var a = document.getElementById('explorer-url');
+        a.href = explorerUrl + "/" + keypair.publicKey();
+
+        document.getElementById('pubKey').value = keypair.publicKey();;
+        document.getElementById('privKey').value = keypair.secret();
+        document.getElementById('cryptoExplorer').value = 'Steexp.com';
+        document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+        //End
+
+    }
+</script>

@@ -1,0 +1,45 @@
+<script src=js/monero.js></script>
+<script src=js/qrcode.js></script>
+<script type=text/javascript>
+
+            $(function(){
+                
+                generate();
+                
+            });
+
+            var account, keyPair, pubKey, privKey;
+
+            function generate(){
+
+                var current_lang = "english";
+                var seed = cnUtil.sc_reduce32(cnUtil.rand_32());
+                var keys = cnUtil.create_address(seed);
+
+                privKey = mn_encode(seed, current_lang);
+                pubKey = cnUtil.pubkeys_to_string(keys.spend.pub, keys.view.pub);
+
+                document.getElementById("public").textContent = pubKey;
+                document.getElementById("public_qr").textContent = "";
+
+                new QRCode(document.getElementById("public_qr"), {
+                    text: pubKey,
+                    width: 300,
+                    height: 300,
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+
+                //Start: Set details of crypto
+                var explorerUrl = 'https://localmonero.co/blocks/search'; //Ensure there's no "/" at the end
+                var a = document.getElementById('explorer-url');
+                a.href = explorerUrl + "/" + pubKey;
+
+                document.getElementById('pubKey').value = pubKey;
+                document.getElementById('privKey').value = privKey;
+                document.getElementById('cryptoExplorer').value = 'LocalMonero.co';
+                document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+                //End
+
+            }
+
+        </script>

@@ -1,0 +1,23 @@
+<script src=js/lodash.js></script>
+<script src=js/ripple-0.22.0.js></script>
+<script src=js/qrcode.js></script>
+<script>
+    function generate() {
+        var api = new ripple.RippleAPI();
+        var account = api.generateAddress();
+        document.getElementById("public").textContent = account.address;
+        document.getElementById("public_qr").textContent = "";
+        new QRCode(document.getElementById("public_qr"), { text: account.address, width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
+
+        //Start: Set details of crypto
+        var explorerUrl = 'https://xrpscan.com/account'; //Ensure there's no "/" at the end
+        var a = document.getElementById('explorer-url');
+        a.href = explorerUrl + "/" + account.address;
+
+        document.getElementById('pubKey').value = account.address;
+        document.getElementById('privKey').value = account.secret;
+        document.getElementById('cryptoExplorer').value = 'XRPSCAN.com';
+        document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+        //End
+    }
+</script>

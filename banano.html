@@ -1,0 +1,23 @@
+<script src=js/banano.js></script>
+<script src=js/qrcode.js></script>
+<script>
+    function generate() {
+        const seedBytes = nacl_randomBytes(32);
+        const privKey = bananoSeed(seedBytes);
+        const pubKey = bananoPubKey(bananoPrivKey(seedBytes));
+        document.getElementById("public").textContent = pubKey;
+        document.getElementById("public_qr").textContent = "";
+        new QRCode(document.getElementById("public_qr"), { text: pubKey, width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
+
+        //Start: Set details of crypto
+        var explorerUrl = 'https://creeper.banano.cc/explorer/account'; //Ensure there's no "/" at the end
+        var a = document.getElementById('explorer-url');
+        a.href = explorerUrl + "/" + pubKey;
+
+        document.getElementById('pubKey').value = pubKey;
+        document.getElementById('privKey').value = privKey;
+        document.getElementById('cryptoExplorer').value = 'Banano.cc';
+        document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+        //End
+    }
+</script>

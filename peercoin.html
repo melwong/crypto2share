@@ -1,0 +1,27 @@
+<script src=js/bitcoinjs-lib.js></script>
+<script src=js/qrcode.js></script>
+<script>
+    function generate() {
+        const peercoin = bitcoin.networks.bitcoin;
+        peercoin.pubKeyHash = 0x37; peercoin.wif = 0xb7; peercoin.scriptHash = 0x16;
+        const keyPair = bitcoin.ECPair.makeRandom();
+        const pubKey = keyPair.getAddress();
+        const privKey = keyPair.toWIF();
+        document.getElementById("public").textContent = pubKey;
+        document.getElementById("public_qr").textContent = "";
+        new QRCode(document.getElementById("public_qr"), { text: pubKey, width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
+
+        //Start: Set details of crypto
+        var explorerUrl = 'https://blockbook.peercoin.net/address'; //Ensure there's no "/" at the end
+        var a = document.getElementById('explorer-url');
+        a.href = explorerUrl + "/" + pubKey;
+
+        document.getElementById('pubKey').value = pubKey;
+        document.getElementById('privKey').value = privKey;
+        document.getElementById('cryptoExplorer').value = 'Peercoin.net';
+        document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+        //End
+
+    }
+
+</script>

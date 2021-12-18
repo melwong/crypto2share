@@ -1,0 +1,26 @@
+<script src=js/bitcoinjs-lib.js></script>
+<script src=js/qrcode.js></script>
+<script>
+    function generate() {
+        const qtum = bitcoin.networks.bitcoin;
+        qtum.pubKeyHash = 0x3A; qtum.wif = 0x80; qtum.scriptHash = 0x32;
+        const keyPair = bitcoin.ECPair.makeRandom();
+        const pubKey = keyPair.getAddress();
+        const privKey = keyPair.toWIF();
+        document.getElementById("public").textContent = pubKey;
+        document.getElementById("public_qr").textContent = "";
+        new QRCode(document.getElementById("public_qr"), { text: pubKey, width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
+
+        //Start: Set details of crypto
+        var explorerUrl = 'https://explorer.qtum.org/address'; //Ensure there's no "/" at the end
+        var a = document.getElementById('explorer-url');
+        a.href = explorerUrl + "/" + pubKey;
+
+        document.getElementById('pubKey').value = pubKey;
+        document.getElementById('privKey').value = privKey;
+        document.getElementById('cryptoExplorer').value = 'Qtum.org';
+        document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+        //End
+
+    }
+</script>

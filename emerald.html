@@ -1,0 +1,25 @@
+<script src=js/bitcoinjs-lib.js></script>
+<script src=js/qrcode.js></script>
+<script>
+    function generate() {
+        const emerald = bitcoin.networks.bitcoin;
+        emerald.pubKeyHash = 0x22; emerald.wif = 0xa2; emerald.scriptHash = 0x16;
+        const keyPair = bitcoin.ECPair.makeRandom();
+        const pubKey = keyPair.getAddress();
+        const privKey = keyPair.toWIF();
+        document.getElementById("public").textContent = pubKey;
+        document.getElementById("public_qr").textContent = "";
+        new QRCode(document.getElementById("public_qr"), { text: pubKey, width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
+
+        //Start: Set details of crypto
+        var explorerUrl = 'https://chainz.cryptoid.info/emd/address.dws'; //Ensure there's no "/" at the end
+        var a = document.getElementById('explorer-url');
+        a.href = explorerUrl + "?" + pubKey;
+
+        document.getElementById('pubKey').value = pubKey;
+        document.getElementById('privKey').value = privKey;
+        document.getElementById('cryptoExplorer').value = 'CryptoID.info';
+        document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+        //End
+    }
+</script>

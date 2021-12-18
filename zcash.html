@@ -1,0 +1,24 @@
+<script src=js/bitcore-lib-zcash.js></script>
+<script src=js/qrcode.js></script>
+<script>
+    function generate() {
+        const keyPair = new bitcore.PrivateKey();
+        const privKey = keyPair.toWIF();
+        const pubKey = keyPair.toAddress();
+        document.getElementById("public").textContent = pubKey;
+        document.getElementById("public_qr").textContent = "";
+        new QRCode(document.getElementById("public_qr"), { text: pubKey, width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
+
+        //Start: Set details of crypto
+        var explorerUrl = 'https://zcash.tokenview.com/en/address'; //Ensure there's no "/" at the end
+        var a = document.getElementById('explorer-url');
+        a.href = explorerUrl + "/" + pubKey;
+
+        document.getElementById('pubKey').value = pubKey;
+        document.getElementById('privKey').value = privKey;
+        document.getElementById('cryptoExplorer').value = 'TokenView.com';
+        document.getElementById('cryptoExplorerUrl').value = explorerUrl;
+        //End
+
+    }
+</script>

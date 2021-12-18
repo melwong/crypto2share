@@ -408,7 +408,7 @@
                             <div class="form-group row">
                                 <div class="offset-lg-4 offset-sm-2 col-12">              
                                     <!--Add Google reCAPTCHA widget-->
-                                    <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdJLaodAAAAAFMbhruDSPVQ1cYOvyuO-Ba2M8lw"></div>
+                                    <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey=""></div>
                                 </div>
                             </div>
                             <div class="form-group row">

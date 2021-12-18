@@ -25,7 +25,7 @@
 
         //Check with Google reCAPTCHA
         if ( isset( $_POST['g-recaptcha-response'] ) ) {
-            $secret = '6LdJLaodAAAAAK-5EK8dtCQuccp0IHWg4MAejPKK';
+            $secret = '';
             $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
             $responseData = json_decode($verifyResponse);
             if ($responseData->success) {
@@ -195,7 +195,7 @@
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = 'ssl';
             $mail->Username = 'noreply@crypto2share.com';
-            $mail->Password = 'CRy2468./';
+            $mail->Password = '';
             $mail->AddCustomHeader("List-Unsubscribe: <mailto:hey@crypto2share.com?subject=Unsubscribe>, <https://crypto2share.com/unsubscribe.php?email=" . $receiver_email.">");
             $mail->setFrom('noreply@crypto2share.com', 'Crypto2Share');
             //$mail->addReplyTo($sender_email, $sender_name);

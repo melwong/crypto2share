@@ -35,7 +35,7 @@
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = 'ssl';
             $mail->Username = 'noreply@crypto2share.com';
-            $mail->Password = 'CRy2468./';
+            $mail->Password = '';
             $mail->setFrom('noreply@crypto2share.com', 'Crypto2Share');
             $mail->addAddress('hey@crypto2share.com', 'Crypto2Share Admin');
             $mail->Subject = 'Unsubscribe request';

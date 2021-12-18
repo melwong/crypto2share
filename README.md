@@ -1,9 +1,12 @@
 # crypto2share
 
-## What is this?
+## What is this
 To let anyone with cryptocurrencies to send anyone else some of their cryptos as a gift. We support over 570 cryptocurrencies!
 
-Each crypto is delivered via email inside a newly generated digital wallet (paper wallet). The public address and private key are sent with the email, including the amount of crypto given by the sender and market value of their crypto.
+## How it works
+Each crypto is delivered via email inside a newly generated digital wallet (paper wallet). 
+
+Sender only needs to send the desired amount of crypto to the new wallet and fill in a form with recipient's name and email address with a message. The email will be delivered immediately with the wallet's public address and private key. The email also comes with beginner's tutorials about cryptocurrency.
 
 ## Purpose
 We feel that the best way to get people to be interested about something is giving them a gift that would spark their curiosity. Thus, we want to help educate those who are not yet touched by cryptocurrency by offering them gifts in the form of cryptos.

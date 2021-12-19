@@ -30,14 +30,14 @@
             $mail = new PHPMailer;
             $mail->isSMTP();
             $mail->SMTPDebug = 0;
-            $mail->Host = 'ecngx300.inmotionhosting.com';
+            $mail->Host = '';
             $mail->Port = 465;
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = 'ssl';
-            $mail->Username = 'noreply@crypto2share.com';
+            $mail->Username = '';
             $mail->Password = '';
-            $mail->setFrom('noreply@crypto2share.com', 'Crypto2Share');
-            $mail->addAddress('hey@crypto2share.com', 'Crypto2Share Admin');
+            $mail->setFrom('', '');
+            $mail->addAddress('', '');
             $mail->Subject = 'Unsubscribe request';
             $mail->Body = $email. ' wishes to unsubscribe';
             //$mail->msgHTML($html_body);

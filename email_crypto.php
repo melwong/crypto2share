@@ -190,14 +190,14 @@
             $mail = new PHPMailer;
             $mail->isSMTP();
             $mail->SMTPDebug = 0;
-            $mail->Host = 'ecngx300.inmotionhosting.com';
+            $mail->Host = '';
             $mail->Port = 465;
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = 'ssl';
-            $mail->Username = 'noreply@crypto2share.com';
+            $mail->Username = '';
             $mail->Password = '';
-            $mail->AddCustomHeader("List-Unsubscribe: <mailto:hey@crypto2share.com?subject=Unsubscribe>, <https://crypto2share.com/unsubscribe.php?email=" . $receiver_email.">");
-            $mail->setFrom('noreply@crypto2share.com', 'Crypto2Share');
+            $mail->AddCustomHeader("List-Unsubscribe: <mailto:you@yourdomain.com?subject=Unsubscribe>, <https://yourdomain.com/unsubscribe.php?email=" . $receiver_email.">");
+            $mail->setFrom('you@yourdomain.com', 'Crypto2Share');
             //$mail->addReplyTo($sender_email, $sender_name);
             $mail->addAddress($receiver_email, $receiver_name);
             $mail->Subject = $sender_name . ' sends you a surprise';

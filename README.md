@@ -1,4 +1,4 @@
-# Crypto2Share (https://crypto2share.com)
+# [Crypto2Share](https://crypto2share.com) [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 To let anyone with cryptocurrencies to send anyone else some of their cryptos as a gift. We support over 570 cryptocurrencies!
 
 ## How it works

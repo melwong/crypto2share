@@ -1,6 +1,4 @@
 # crypto2share
-
-## What is this
 To let anyone with cryptocurrencies to send anyone else some of their cryptos as a gift. We support over 570 cryptocurrencies!
 
 ## How it works

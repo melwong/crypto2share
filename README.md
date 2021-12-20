@@ -12,7 +12,7 @@ Sender only needs to send the amount of crypto to the new wallet and fill in a f
 No wallet data or email address is stored and no database is used. Code is designed to prevent XSS and SQL injection. Every user input is validated and sanitized. Webpages are checked to ensure they always run under SSL secured environment.
 
 ## Purpose
-We feel that the best way to get people to be interested about something is giving them a gift that would spark their curiosity. Thus, we want to help educate those who are not yet touched by cryptocurrency by offering them gifts in the form of cryptos.
+We feel that the best way to get people to be interested about something is giving them a gift that would spark their curiosity. Thus, we want to help educate those who are not yet touched by cryptocurrency by offering them cryptos as gifts.
 
 ## Special thanks
 Thanks to https://github.com/koraycoding/paper-wallet for providing the paper wallet codes.

@@ -1,5 +1,5 @@
 # [Crypto2Share](https://crypto2share.com)
-To let anyone with cryptocurrencies to send anyone else some of their cryptos as a gift. We support over 570 cryptocurrencies!
+To let anyone with cryptocurrencies to send anyone else some of their cryptos as a gift. It supports over 570 cryptocurrencies!
 
 ## How it works
 Each crypto is delivered via email together with a newly generated digital wallet (paper wallet) containing the crypto.
@@ -13,4 +13,4 @@ No wallet data or email address is stored and no database is used. Outbound emai
 We feel that the best way to get people to be interested about something is giving them a gift that would spark their curiosity. Thus, we want to help educate those who are not yet touched by cryptocurrency by offering them cryptos as gifts.
 
 ## Special thanks
-Thanks to https://github.com/koraycoding/paper-wallet for providing the paper wallet codes.
+Thanks to https://github.com/koraycoding/paper-wallet for providing the paper wallet codes and [Icons8](https://icons8.com/icon/OFHwDWASQWmX/coin) for letting me use your one cool icon.

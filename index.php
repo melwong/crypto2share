@@ -16,11 +16,11 @@
 
 <head>
 
-    <title>Cryptocurrency as Gift - Crypto2Share</title>
+    <title>Give Cryptocurrency This Christmas - Crypto2Share</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="description" content="Giveaway your cryptocurrency as gifts and presents">
+    <meta name="description" content="Give your cryptocurrency as gifts and presents">
     <meta name="keywords"
         content="give cryptocurrency, how to, crypto presents, crypto gifts, share cryptocurrency, christmas, lunar new year crypto packet or envelope">
     <meta name="author" content="Crypto2Share">
@@ -45,6 +45,16 @@
         gtag('config', 'G-1TFKBV58BE');
     </script>
 
+    <meta property="og:title" content="Crypto2Share" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://crypto2share.com/" />
+    <meta property="og:image" content="https://crypto2share.com/images/share-cryptocurrency.jpg" />
+
+    <meta name="twitter:title" content="Crypto2Share">
+    <meta name="twitter:description" content="Give cryptocurrency as gifts">
+    <meta name="twitter:image" content="https://crypto2share.com/images/share-cryptocurrency.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
 </head>
 
 <body>
@@ -63,10 +73,9 @@
                 </div>
 
                 <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-                    <div class="hero-text">
+                    <div class="hero-text text-lg-left text-center">
 
-                        <h1 class="hero-title">Spread the joy of crypto to your non-crypto family and friends. Send them
-                            some cryptos!</h1>
+                        <h1 class="hero-title">Share the joy of crypto with your non-crypto family and friends. Send a gift of crypto.</h1>
 
                         <a href="#start" class="email-link col-md-10 col-lg-6 text-center">
                             I'm ready 2 share
@@ -87,13 +96,13 @@
                 <div class="mx-auto col-lg-4 col-md-6 col-12">
                     <h3 class="my-4 pt-4 pt-lg-0">First, choose what crypto to give them</h3>
 
-                    <p class="mb-1">We will generate a secure wallet to send them the crypto.</p>
-                    <p class="mt-3 pt-2">Choose from over 570 cryptocurrencies.</p>
+                    <p class="mb-1">A secure wallet will be generated to deliver them the crypto via secure email. </p>
+                    <p class="mt-3 pt-2">Choose from over 570 cryptocurrencies. This service is free without any registration.</p>
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 pt-5">
                     <div id="container">
-                        <input type="text" id="searchInput" onkeyup="Search()" placeholder="Choose crypto 2 share">
+                        <input type="text" id="searchInput" onkeyup="Search()" placeholder="Choose crypto to share">
                         <ol id="searchOL">
                             <li>
                                 <a href="send_crypto.php?symbol=btc">Bitcoin (BTC)</a>
@@ -1137,682 +1146,685 @@
                                 <a href="send_crypto.php?symbol=erc20&name=LiteCoinGold&code=ltg" class="erc20">LiteCoinGold(LTG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">LLToken(LLT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=LLToken&code=llt" class="erc20">LLToken(LLT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">LOCIcoin(LOCI)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=LOCIcoin&code=loci" class="erc20">LOCIcoin(LOCI)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">LockChain(LOC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=LockChain&code=loc" class="erc20">LockChain(LOC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Loopring(LRC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Loopring&code=lrc" class="erc20">Loopring(LRC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Lunyr(LUN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Lunyr&code=lun" class="erc20">Lunyr(LUN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Lympo(LYM)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Lympo&code=lym" class="erc20">Lympo(LYM)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Macro(MCR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Macro&code=mcr" class="erc20">Macro(MCR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Maecenas(ART)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Maecenas&code=art" class="erc20">Maecenas(ART)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Maggie(MAG)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Maggie&code=mag" class="erc20">Maggie(MAG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Maker(MKR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Maker&code=mkr" class="erc20">Maker(MKR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Matchpool(GUP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Matchpool&code=gup" class="erc20">Matchpool(GUP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Matryx(MTX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Matryx&code=mtx" class="erc20">Matryx(MTX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MaverickChain(MVC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MaverickChain&code=mvc" class="erc20">MaverickChain(MVC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MCAP(MCAP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MCAP&code=mcap" class="erc20">MCAP(MCAP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Medicalchain(MTN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Medicalchain&code=mtn" class="erc20">Medicalchain(MTN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MediShares(MDS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MediShares&code=mds" class="erc20">MediShares(MDS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Melon(MLN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Melon&code=mln" class="erc20">Melon(MLN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MercuryProtocol(GMT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MercuryProtocol&code=gmt" class="erc20">MercuryProtocol(GMT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Metal(MTL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Metal&code=mtl" class="erc20">Metal(MTL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MicroMoney(AMM)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MicroMoney&code=amm" class="erc20">MicroMoney(AMM)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Minereum(MNE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Minereum&code=mne" class="erc20">Minereum(MNE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Mixin(XIN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Mixin&code=xin" class="erc20">Mixin(XIN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MOAC(MOAC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MOAC&code=moac" class="erc20">MOAC(MOAC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MobileGo(MGO)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MobileGo&code=mgo" class="erc20">MobileGo(MGO)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Modum(MOD)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Modum&code=mod" class="erc20">Modum(MOD)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MolecularFuture(MOF)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MolecularFuture&code=mof" class="erc20">MolecularFuture(MOF)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Monaco(MCO)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Manaco&code=mco" class="erc20">Monaco(MCO)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MoneroGold(XMRG)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MoneroGold&code=xmrg" class="erc20">MoneroGold(XMRG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Monetha(MTH)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Monetha&code=mth" class="erc20">Monetha(MTH)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Mothership(MSP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Mothership&code=msp" class="erc20">Mothership(MSP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Musiconomi(MCI)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Musiconomi&code=mci" class="erc20">Musiconomi(MCI)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MyBitToken(MYB)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MyBitToken&code=myb" class="erc20">MyBitToken(MYB)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Mysterium(MYST)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Mysterium&code=myst" class="erc20">Mysterium(MYST)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">MyWish(WISH)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=MyWish&code=wish" class="erc20">MyWish(WISH)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">NAGA(NGC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=NAGA&code=ngc" class="erc20">NAGA(NGC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Natcoin(NTC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Natcoin&code=ntc" class="erc20">Natcoin(NTC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Nebulas(NAS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Nebulas&code=nas" class="erc20">Nebulas(NAS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">NetworkToken(NTWK)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=NetworkToken&code=ntwk" class="erc20">NetworkToken(NTWK)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Neumark(NEU)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Neumark&code=neu" class="erc20">Neumark(NEU)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">NeuroDAO(NDAO)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=NeuroDAO&code=ndao" class="erc20">NeuroDAO(NDAO)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Neurotoken(NTK)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Neurotoken&code=ntk" class="erc20">Neurotoken(NTK)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">NEVERDIE(NDC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=NEVERDIE&code=ndc" class="erc20">NEVERDIE(NDC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Newbium(NEWB)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Newbium&code=newb" class="erc20">Newbium(NEWB)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Nework(NKC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Nework&code=nkc" class="erc20">Nework(NKC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Nexium(NXC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Nexium&code=nxc" class="erc20">Nexium(NXC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Nimfamoney(NIMFA)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Nimfamoney&code=nimfa" class="erc20">Nimfamoney(NIMFA)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Nimiq(NET)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Nimiq&code=nef" class="erc20">Nimiq(NET)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Nitro(NOX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Nitro&code=nox" class="erc20">Nitro(NOX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">NucleusVision(NCASH)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=NucleusVision&code=ncash" class="erc20">NucleusVision(NCASH)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Nuls(NULS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Nuls&code=nuls" class="erc20">Nuls(NULS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Numeraire(NMR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Numeraire&code=nmr" class="erc20">Numeraire(NMR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">OAX(OAX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=OAX&code=oax" class="erc20">OAX(OAX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Odyssey(OCN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Odyssey&code=ocn" class="erc20">Odyssey(OCN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">OlympusLabs(MOT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=OlympusLabs&code=mot" class="erc20">OlympusLabs(MOT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">OmiseGO(OMG)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=OmiseGO&code=omg" class="erc20">OmiseGO(OMG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">OneRootNetwork(RNT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=OneRootNetwork&code=rnt" class="erc20">OneRootNetwork(RNT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">onG.social(ONG)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=onG.social&code=ong" class="erc20">onG.social(ONG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Opus(OPT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Opus&code=opt" class="erc20">Opus(OPT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">OriginTrail(TRAC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=OriginTrail&code=trac" class="erc20">OriginTrail(TRAC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">OrmeusCoin(ORME)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=OrmeusCoin&code=orme" class="erc20">OrmeusCoin(ORME)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">OXFina(OX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=OXFina&code=ox" class="erc20">OXFina(OX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Oyster(PRL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Oyster&code=prl" class="erc20">Oyster(PRL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">OysterPearl(PRL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=OysterPearl&code=prl" class="erc20">OysterPearl(PRL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Paragon(PRG)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Paragon&code=prg" class="erc20">Paragon(PRG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Patientory(PTOY)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Patientory&code=ptoy" class="erc20">Patientory(PTOY)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Payfair(PFR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Payfair&code=pfr" class="erc20">Payfair(PFR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Paypex(PAYX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Paypex&code=payx" class="erc20">Paypex(PAYX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PayPie(PPP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PayPie&code=ppp" class="erc20">PayPie(PPP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Pillar(PLR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Pillar&code=plr" class="erc20">Pillar(PLR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PiplCoin(PIPL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PiplCoin&code=pipl" class="erc20">PiplCoin(PIPL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Playkey(PKT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Playkey&code=pkt" class="erc20">Playkey(PKT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PlexCoin(PLX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PlexCoin&code=plx" class="erc20">PlexCoin(PLX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PlusCoin(PLC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PlusCoin&code=plc" class="erc20">PlusCoin(PLC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Pluton(PLU)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Pluton&code=plu" class="erc20">Pluton(PLU)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Po.et(POE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Po.et&code=poe" class="erc20">Po.et(POE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">POLYAI(AI)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=POLYAI&code=ai" class="erc20">POLYAI(AI)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Polybius(PLBT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Polybius&code=plbt" class="erc20">Polybius(PLBT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PolymathNetwork(POLY)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PloymathNetwork&code=poly" class="erc20">PolymathNetwork(POLY)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Populous(PPT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Populous&code=ppt" class="erc20">Populous(PPT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PoSToken(POS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PoSToken&code=pos" class="erc20">PoSToken(POS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PowerLedger(POWR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PowerLedger&code=powr" class="erc20">PowerLedger(POWR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Presearch(PRE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Presearch&code=pre" class="erc20">Presearch(PRE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PressOne(PRS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PressOne&code=prs" class="erc20">PressOne(PRS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Primas(PST)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Primas&code=pst" class="erc20">Primas(PST)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Privatix(PRIX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Privatix&code=prix" class="erc20">Privatix(PRIX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">ProChain(PRO)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=ProChain&code=pro" class="erc20">ProChain(PRO)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Propy(PRO)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Propy&code=pro" class="erc20">Propy(PRO)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">ProspectorsGold(PGL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=ProspectorsGold&code=pgl" class="erc20">ProspectorsGold(PGL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Publica(PBL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Publica&code=pbl" class="erc20">Publica(PBL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PundiX(PXS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PundiX&code=pxs" class="erc20">PundiX(PXS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Purpose(PRPS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Purpose&code=prps" class="erc20">Purpose(PRPS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">PylonNetwork(PYLNT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=PylonNetwork&code=pylnt" class="erc20">PylonNetwork(PYLNT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">QASH(QASH)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=QASH&code=qash" class="erc20">QASH(QASH)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Quantstamp(QSP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Quantstamp&code=qsp" class="erc20">Quantstamp(QSP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Quantum(QAU)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Quantum&code=qau" class="erc20">Quantum(QAU)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Qube(QUBE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Qube&code=qube" class="erc20">Qube(QUBE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">QunQun(QUN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=QunQun&code=qun" class="erc20">QunQun(QUN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Qvolta(QVT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Qvolta&code=qvt" class="erc20">Qvolta(QVT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">RChain(RHOC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=RChain&code=rhoc" class="erc20">RChain(RHOC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Read(READ)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Read&code=read" class="erc20">Read(READ)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">REAL(REAL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=REAL&code=real" class="erc20">REAL(REAL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">RealChain(RCT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=RealChain&code=rct" class="erc20">RealChain(RCT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Rebellious(REBL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Rebellious&code=rebl" class="erc20">Rebellious(REBL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">REDMWAT(MWAT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=REDMWAT&code=mwat" class="erc20">REDMWAT(MWAT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Refereum(RFR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Refereum&code=RFR" class="erc20">Refereum(RFR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">RefToken(REF)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=RefToken&code=ref" class="erc20">RefToken(REF)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Remicoin(RMC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Remicoin&code=rmc" class="erc20">Remicoin(RMC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Remme(REM)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Remme&code=rem" class="erc20">Remme(REM)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">RequestNetwork(REQ)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=RequestNetwork&code=req" class="erc20">RequestNetwork(REQ)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Revain(R)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Revain&code=r" class="erc20">Revain(R)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">REX(REX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=REX&code=rex" class="erc20">REX(REX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Rialto(XRL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Rialto&code=xrl" class="erc20">Rialto(XRL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Rivetz(RVT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Rivetz&code=rvt" class="erc20">Rivetz(RVT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Rock(RKT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Rock&code=rkt" class="erc20">Rock(RKT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">RouletteToken(RLT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=RouletteToken&code=rlt" class="erc20">RouletteToken(RLT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Ruff(RUFF)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Ruff&code=ruff" class="erc20">Ruff(RUFF)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SALT(SALT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SALT&code=salt" class="erc20">SALT(SALT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SandCoin(SND)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SandCoin&code=snd" class="erc20">SandCoin(SND)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Scry.info(DDD)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Scry.info&code=ddd" class="erc20">Scry.info(DDD)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Selfkey(KEY)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Selfkey&code=key" class="erc20">Selfkey(KEY)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SelfSell(SSC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SelfSell&code=ssc" class="erc20">SelfSell(SSC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Senderon(SDRN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Senderon&code=sdrn" class="erc20">Senderon(SDRN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Sense(SENSE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Sense&code=sense" class="erc20">Sense(SENSE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Sether(SETH)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Sether&code=seth" class="erc20">Sether(SETH)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Sharechain(SSS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Sharechain&code=sss" class="erc20">Sharechain(SSS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">ShareX(SEXC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=ShareX&code=sexc" class="erc20">ShareX(SEXC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Show(SHOW)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Show&code=show" class="erc20">Show(SHOW)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SimpleToken(OST)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SimpleToken&code=ost" class="erc20">SimpleToken(OST)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SingularDTV(SNGLS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SingularDTV&code=sngls" class="erc20">SingularDTV(SNGLS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SingularityNET(AGI)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SingularityNET&code=agi" class="erc20">SingularityNET(AGI)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SIRINLABSToken(SRN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SIRINLABSToken&code=srn" class="erc20">SIRINLABSToken(SRN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SkinCoin(SKIN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SkinCoin&code=skin" class="erc20">SkinCoin(SKIN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SmartBillions(SMART)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SmartBillions&code=smart" class="erc20">SmartBillions(SMART)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SmartMesh(SMT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SmartMesh&code=smt" class="erc20">SmartMesh(SMT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Snovio(SNOV)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Snovio&code=snov" class="erc20">Snovio(SNOV)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Soarcoin(SOAR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Soarcoin&code=soar" class="erc20">Soarcoin(SOAR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Social(SCL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Social&code=scl" class="erc20">Social(SCL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Sociall(SCL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Sociall&code=scl" class="erc20">Sociall(SCL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Soma(SCT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Soma&code=sct" class="erc20">Soma(SCT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SONM(SNM)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SONM&code=snm" class="erc20">SONM(SNM)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SophiaTX(SPHTX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SophiaTX&code=sphtx" class="erc20">SophiaTX(SPHTX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SpankChain(SPANK)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SpankChain&code=spank" class="erc20">SpankChain(SPANK)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SphreAIR(XID)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SphreAIR&code=xid" class="erc20">SphreAIR(XID)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SportyCo(SPF)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SportyCo&code=spf" class="erc20">SportyCo(SPF)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SportyFi(SPF)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SportyFi&code=spf" class="erc20">SportyFi(SPF)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Starbase(STAR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Starbase&code=star" class="erc20">Starbase(STAR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">StarChain(STC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=StarChain&code=stc" class="erc20">StarChain(STC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">StarCredits(STRC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=StarCredits&code=strc" class="erc20">StarCredits(STRC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Status(SNT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Status&code=snt" class="erc20">Status(SNT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">STK(STK)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=STK&code=stk" class="erc20">STK(STK)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Storj(STORJ)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Storj&code=storj" class="erc20">Storj(STORJ)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Storm(STORM)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Storm&code=storm" class="erc20">Storm(STORM)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Stox(STX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Stox&code=stx" class="erc20">Stox(STX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">StreamrDATAcoin(DATA)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=StreamrDATAcoin&code=data" class="erc20">StreamrDATAcoin(DATA)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Substratum(SUB)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Substratum&code=sub" class="erc20">Substratum(SUB)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SugarExchange(SGR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SugarExchange&code=sgr" class="erc20">SugarExchange(SGR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SunContract(SNC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SunContract&code=snc" class="erc20">SunContract(SNC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Suretly(SUR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Suretly&code=sur" class="erc20">Suretly(SUR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Swapcoin(SWP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Swapcoin&code=swp" class="erc20">Swapcoin(SWP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Swarm(SWM)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Swarm&code=swm" class="erc20">Swarm(SWM)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SwarmCity(SWT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SwarmCity&code=swt" class="erc20">SwarmCity(SWT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SwftCoin(SWFTC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SwftCoin&code=swftc" class="erc20">SwftCoin(SWFTC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">SwissBorg(CHSB)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=SwissBorg&code=chsb" class="erc20">SwissBorg(CHSB)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TaaS(TAAS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TaaS&code=taas" class="erc20">TaaS(TAAS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TargetCoin(TGT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TargetCoin&code=tgt" class="erc20">TargetCoin(TGT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Telcoin(TEL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Telcoin&code=tel" class="erc20">Telcoin(TEL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TenX(PAY)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TenX&code=pay" class="erc20">TenX(PAY)</a>
                             </li>
+                             <li>
+                                <a href="send_crypto.php?symbol=erc20&name=Tether&code=usdt" class="erc20">Tether(USDT)</a>
+                            </li>
                             <li>
-                                <a href="#" class="erc20">ThetaToken(THETA)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=ThetaToken&code=theta" class="erc20">ThetaToken(THETA)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Tierion(TNT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Tierion&code=tnt" class="erc20">Tierion(TNT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TIESNetwork(TIE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TIESNetwork&code=tie" class="erc20">TIESNetwork(TIE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Ties.DB(TIE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Ties.DB&code=tie" class="erc20">Ties.DB(TIE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Tigereum(TIG)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Tigereum&code=tig" class="erc20">Tigereum(TIG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TimeNewBank(TNB)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TimeNewBank&code=tnb" class="erc20">TimeNewBank(TNB)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Tokenbox(TBX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Tokenbox&code=tbx" class="erc20">Tokenbox(TBX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TokenCard(TKN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TokenCard&code=tkn" class="erc20">TokenCard(TKN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TokenClub(TCT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TokenClub&code=tct" class="erc20">TokenClub(TCT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TopChain(TOPC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TopChain&code=topc" class="erc20">TopChain(TOPC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Tracto(TRCT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Tracto&code=trct" class="erc20">Tracto(TRCT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TradeToken(TIO)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TradeToken&code=tio" class="erc20">TradeToken(TIO)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Triaconta(TRIA)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Triaconta&code=tria" class="erc20">Triaconta(TRIA)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TridentGroup(TRDT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TridentGroup&code=trdt" class="erc20">TridentGroup(TRDT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TRON(TRX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TRON&code=trx" class="erc20">TRON(TRX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TrueChain(TRUE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TrueChain&code=true" class="erc20">TrueChain(TRUE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">TrueFlip(TFL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=TrueFlip&code=tfl" class="erc20">TrueFlip(TFL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">U.CASH(UCASH)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=U.Cash&code=ucash" class="erc20">U.CASH(UCASH)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">UGToken(UGT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=UGToken&code=ugt" class="erc20">UGToken(UGT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">ugChain(UGC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=ugChain&code=ugc" class="erc20">ugChain(UGC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">UnikoinGold(UKG)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=UnikoinGold&code=ukg" class="erc20">UnikoinGold(UKG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Universa(UTNP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Universa&code=utnp" class="erc20">Universa(UTNP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">UnlimitedIP(UIP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=UnlimitedIP&code=uip" class="erc20">UnlimitedIP(UIP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Upfiring(UFR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Upfiring&code=ufr" class="erc20">Upfiring(UFR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">UquidCoin(UQC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=UquidCoin&code=uqc" class="erc20">UquidCoin(UQC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">UTRUST(UTK)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=UTRUST&code=utk" class="erc20">UTRUST(UTK)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">ValueChain(VLC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=ValueChain&code=vlc" class="erc20">ValueChain(VLC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">VeChain(VEN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=VeChain&code=ven" class="erc20">VeChain(VEN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Verify(CRED)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Verify&code=cred" class="erc20">Verify(CRED)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Veritaseum(VERI)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Veritaseum&code=veri" class="erc20">Veritaseum(VERI)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Veros(VRS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Veros&code=vrs" class="erc20">Veros(VRS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Vezt(VZT)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Vezt&code=vzt" class="erc20">Vezt(VZT)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">VIBE(VIBE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=VIBE&code=vibe" class="erc20">VIBE(VIBE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Viberate(VIB)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Viberate&code=vib" class="erc20">Viberate(VIB)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Viuly(VIU)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Viuly&code=viu" class="erc20">Viuly(VIU)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Voise(VOISE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Voise&code=voise" class="erc20">Voise(VOISE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">vSlice(VSL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=vSlice&code=vsl" class="erc20">vSlice(VSL)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">WaBi(WABI)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=WaBi&code=wabi" class="erc20">WaBi(WABI)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Walton(WTC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Walton&code=wtc" class="erc20">Walton(WTC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Waltonchain(WTC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Waltonchain&code=wtc" class="erc20">Waltonchain(WTC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">WandX(WAND)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=WandX&code=wand" class="erc20">WandX(WAND)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">WAX(WAX)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=WAX&code=wax" class="erc20">WAX(WAX)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">WePower(WPR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=WePower&code=wpr" class="erc20">WePower(WPR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">WETH(WETH)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=WETH&code=weth" class="erc20">WETH(WETH)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">WeTrust(TRST)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=WeTrust&code=trst" class="erc20">WeTrust(TRST)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">WiCoin(WIC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=WiCoin&code=wic" class="erc20">WiCoin(WIC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">WildCrypto(WILD)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=WildCrypto&code=wild" class="erc20">WildCrypto(WILD)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Wings(WINGS)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Wings&code=wings" class="erc20">Wings(WINGS)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Worldcore(WRC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Worldcore&code=wrc" class="erc20">Worldcore(WRC)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Xaurum(XAUR)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Xaurum&code=xaur" class="erc20">Xaurum(XAUR)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Xenon(XNN)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Xenon&code=xnn" class="erc20">Xenon(XNN)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">XPA(XPA)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=XPA&code=xpa" class="erc20">XPA(XPA)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">XPlay(XPA)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=XPlay&code=xpa" class="erc20">XPlay(XPA)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Yee(YEE)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Yee&code=yee" class="erc20">Yee(YEE)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Zap(ZAP)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Zap&code=zap" class="erc20">Zap(ZAP)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">ZCashGold(ZCG)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=ZCashGold&code=zcg" class="erc20">ZCashGold(ZCG)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Zeusshield(ZSC)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Zeusshield&code=zsc" class="erc20">Zeusshield(ZSC)</a>
                             </li>
                             <li>
-                                <a href="send_crypto.php?symbol=zla" class="erc20">Zilla(ZLA)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Zilla&code=zla" class="erc20">Zilla(ZLA)</a>
                             </li>
                             <li>
-                                <a href="#" class="erc20">Zilliqa(ZIL)</a>
+                                <a href="send_crypto.php?symbol=erc20&name=Zilliqa&code=zil" class="erc20">Zilliqa(ZIL)</a>
                             </li>
                         </ol>
                     </div>
@@ -1824,16 +1836,10 @@
         </div>
     </section>
 
-    <footer>
-        <div class="footer-copyright text-center py-3">
-            <small><a href="https://crypto2share.com">Crypto2Share</a>. Contact us at hey (at) crypto2share.com</small>
-            <div class="pt-2"></div>
-            <small>Built with &#10084; and &#9728; to spread the goodnews of cryptocurrency. Made in Seoul, South Korea.</small>
-        </div>
-    </footer>
+    <?php include('footer.php'); ?>
 
     <!-- SCRIPTS -->
-    <script src="js/erc20.js"></script>
+    <script src="js/erc20.js" integrity="sha384-XYfIuzX3+dVYDbAiu1zXzEyn1qva/nccvhqpbFOcCET7x71zuBm+jI6XONJidsLX" crossorigin="anonymous"></script>
 
 
 </body>

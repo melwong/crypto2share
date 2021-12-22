@@ -1,5 +1,8 @@
-<script src=js/web3-eth-accounts.js></script>
-<script src=js/qrcode.js></script>
+<script src="js/web3-eth-accounts.js"
+    integrity="sha384-g+w2ZARweaC6pyL8AB07Lj2m2S7yc9pdjXug82l2Cv1GBJLwNuPm+8FkV7hk/V9n"
+    crossorigin="anonymous"></script>
+<script src="js/qrcode.js" integrity="sha384-+uaAthihb/4g7LTyfTcJu4KOKCIN0f1EeBxAwgcbeu26cV+fCgk/WQTuJ+jiHfhP"
+    crossorigin="anonymous"></script>
 <script>
     function generate() {
         const account = new Web3EthAccounts();
@@ -11,13 +14,13 @@
         new QRCode(document.getElementById("public_qr"), { text: pubKey, width: 300, height: 300, correctLevel: QRCode.CorrectLevel.H });
 
         //Start: Set details of crypto
-        var explorerUrl = 'https://ethplorer.io/address'; //Ensure there's no "/" at the end
+        var explorerUrl = 'https://etherscan.io/address'; //Ensure there's no "/" at the end
         var a = document.getElementById('explorer-url');
         a.href = explorerUrl + "/" + pubKey;
 
         document.getElementById('pubKey').value = pubKey;
         document.getElementById('privKey').value = privKey;
-        document.getElementById('cryptoExplorer').value = 'Ethplorer.io';
+        document.getElementById('cryptoExplorer').value = 'Etherscan.io';
         document.getElementById('cryptoExplorerUrl').value = explorerUrl;
         //End
 

@@ -150,20 +150,13 @@
         </div>
     </section>
 
-    <footer>
-        <div class="footer-copyright text-center py-3">
-            <small><a href="https://crypto2share.com">Crypto2Share</a>. Contact us at hey (at) crypto2share.com</small>
-            <div class="pt-2"></div>
-            <small>Built with &#10084; and &#9728; to spread the goodnews of cryptocurrency. Made in Seoul, South Korea.</small>
-        </div>
-    </footer>
+    <?php include('footer.php'); ?>
 
     <!-- SCRIPTS -->
-    <script src="js/jquery.min.js"></script>
-    <!-- <script src="js/bootstrap.min.js"></script> -->
-    <!-- <script src="js/smoothscroll.js"></script> -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="js/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <!--<script src="js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
+    <script src="js/owl.carousel.min.js" integrity="sha384-l/y5WJTphApmSlx76Ev6k4G3zxu/+19CVvn9OTKI7gs4Yu5Hm8mjpdtdr5oyhnNo" crossorigin="anonymous"></script>
+    <script src="js/custom.js" integrity="sha384-to2PHQIJKDY7uk1pgr2LP8vf+R5iYFYCWx11gpYZxcGM4zCedMYNItNEgR4PI+Oq" crossorigin="anonymous"></script>
 
 </body>
 
